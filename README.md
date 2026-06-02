@@ -17,6 +17,7 @@ Simulador inteligente de entrevistas técnicas com IA capaz de conduzir entrevis
 
 ## Fluxo:
 
+```
 Usuário
    ↓
 Informa vaga
@@ -34,6 +35,7 @@ Score técnico
 Feedback
    ↓
 Plano de evolução
+```
 
 
 ---
