@@ -104,7 +104,7 @@ A tela de fechamento de relatório lê os dados tratados nativamente no servidor
  * **CI/CD Build-Safe:** O projeto possui scripts injetados no postinstall (prisma generate) que blindam deploys automáticos em ambientes PaaS como Vercel ou Netlify, garantindo que o client do banco esteja gerado antes da transpilação do Next.js.
  * **Tratamento de Hydration Erros:** O gráfico foi desacoplado de componentes do servidor evitando conflitos comuns de renderização entre o HTML gerado no server e a árvore DOM do client.
  * **Controle Estrito de Inputs:** Interfaces blindadas contra dados nulos no histórico através de fallback em tempo de execução no mapeamento de propriedades.
-```
+ * 
 
 ---
 
