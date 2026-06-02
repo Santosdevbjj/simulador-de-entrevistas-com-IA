@@ -16,25 +16,25 @@ model User {
 }
 
 model Interview {
-  id           String    @id @default(uuid())
-  userId       String
-  user         User      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  position     String    // Título da Vaga
-  seniority    String    // Senioridade
-  stack        String    // Tecnologias essenciais
-  softSkills   String    // Comportamentos valorizados
+  id            String    @id @default(uuid())
+  userId        String
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  position      String    // Título da Vaga
+  seniority     String    // Senioridade
+  stack         String    // Tecnologias essenciais
+  softSkills    String    // Comportamentos valorizados
   
   // Métricas do Avaliador (Radar de Competências)
-  scoreGeneral Int?      // Nota Geral de 0 a 100
-  scoreBackend Int?
+  scoreGeneral  Int?      // Nota Geral de 0 a 100
+  scoreBackend  Int?
   scoreFrontend Int?
   scoreCloud    Int?
   scoreSoft     Int?
   scoreArch     Int?
   
-  feedback     String?   @db.Text // Relatório estruturado (Pontos fortes, melhorias)
-  messages     Message[] // Histórico da conversa para reconsultar
-  createdAt    DateTime  @default(now())
+  feedback      String?   @db.Text // Relatório estruturado em Markdown
+  messages      Message[] // Histórico da conversa
+  createdAt     DateTime  @default(now())
 }
 
 model Message {
