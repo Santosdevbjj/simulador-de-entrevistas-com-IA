@@ -5,6 +5,18 @@
 
 <img width="130" height="120" alt="1000126386" src="https://github.com/user-attachments/assets/cf10de84-15d2-4c28-87d0-1533df3bbad1" />
 
+---
+
+Preparação para entrevistas técnicas é subjetiva e pouco escalável | Plataforma de IA Generativa que conduz entrevistas, avalia respostas e gera feedback estruturado em tempo real | Next.js, TypeScript, OpenAI, PostgreSQL e Engenharia de Prompt
+
+
+Simulador inteligente de entrevistas técnicas com IA capaz de conduzir entrevistas, avaliar respostas e gerar planos de evolução profissional utilizando LLMs e Prompt Engineering.
+
+
+---
+
+
+
 
 ---
 
