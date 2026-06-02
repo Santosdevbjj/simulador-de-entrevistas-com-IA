@@ -13,6 +13,29 @@ Preparação para entrevistas técnicas é subjetiva e pouco escalável | Plataf
 Simulador inteligente de entrevistas técnicas com IA capaz de conduzir entrevistas, avaliar respostas e gerar planos de evolução profissional utilizando LLMs e Prompt Engineering.
 
 
+
+
+## Fluxo:
+
+Usuário
+   ↓
+Informa vaga
+   ↓
+IA gera entrevista
+   ↓
+Perguntas dinâmicas
+   ↓
+Usuário responde
+   ↓
+IA avalia respostas
+   ↓
+Score técnico
+   ↓
+Feedback
+   ↓
+Plano de evolução
+
+
 ---
 
 
