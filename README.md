@@ -1,9 +1,34 @@
 # 🤖 AI TalentSpec Architect: Engenharia de Requisitos de Vagas Tech via IA Dupla
 
 
+---
+
+
 ## Bootcamp CAIXA - Inteligência Artificial na Prática.
 
 <img width="130" height="120" alt="1000126386" src="https://github.com/user-attachments/assets/cf10de84-15d2-4c28-87d0-1533df3bbad1" />
+
+---
+
+## IA Entrevistador — Simulador Inteligente de Entrevistas Técnicas
+
+
+
+Profissionais de tecnologia possuem dificuldade para se preparar para entrevistas técnicas porque:
+Não sabem quais perguntas esperar
+Não recebem feedback estruturado
+Não conseguem praticar em ambiente realista
+Não possuem avaliação objetiva de suas respostas
+
+## Solução
+Uma IA especializada conduz entrevistas simuladas de forma estruturada, avaliando:
+Conhecimentos técnicos
+Comunicação
+Clareza
+Senioridade percebida
+Aderência à vaga
+Ao final gera um relatório completo com feedback.
+
 
 ---
 
