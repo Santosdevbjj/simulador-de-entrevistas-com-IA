@@ -20,6 +20,11 @@ Não recebem feedback estruturado
 Não conseguem praticar em ambiente realista
 Não possuem avaliação objetiva de suas respostas
 
+
+## DESCRIÇÃO
+IA Entrevistador é um projeto que utiliza inteligência artificial, prompt engineering e técnicas de entrevistas técnicas para simular processos seletivos, gerar perguntas relevantes, avaliar respostas e ajudar o usuário a se preparar de forma mais prática e direcionada.
+
+
 ## Solução
 Uma IA especializada conduz entrevistas simuladas de forma estruturada, avaliando:
 Conhecimentos técnicos
