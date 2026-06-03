@@ -266,4 +266,3 @@ Senior Data Engineer & Cloud Architect | DIO Campus Expert
 
 ---
 
-*Desenvolvido com foco em impacto de negócio mensurável, não apenas em stack tecnológica.*
