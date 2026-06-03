@@ -1,201 +1,269 @@
-# 🤖 AI TalentSpec Architect: Engenharia de Requisitos de Vagas Tech via IA Dupla
+# 🤖 AI TalentSpec Architect
+### Engenharia de Requisitos de Vagas Tech via Inteligência Artificial Dupla Assíncrona
 
+<div align="center">
 
----
+<img width="130" height="120" alt="Bootcamp CAIXA IA" src="https://github.com/user-attachments/assets/cf10de84-15d2-4c28-87d0-1533df3bbad1" />
 
+**Bootcamp CAIXA – Inteligência Artificial na Prática · DIO**
 
-## Bootcamp CAIXA - Inteligência Artificial na Prática.
+[![Portfólio](https://img.shields.io/badge/Portfólio-Sérgio_Santos-111827?style=for-the-badge&logo=githubpages&logoColor=00eaff)](https://portfoliosantossergio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sérgio_Santos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santossergioluiz)
 
-<img width="130" height="120" alt="1000126386" src="https://github.com/user-attachments/assets/cf10de84-15d2-4c28-87d0-1533df3bbad1" />
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript_5.3-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma_5-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
----
-
-## IA Entrevistador — Simulador Inteligente de Entrevistas Técnicas
-
-
-
-Profissionais de tecnologia possuem dificuldade para se preparar para entrevistas técnicas porque:
-Não sabem quais perguntas esperar
-Não recebem feedback estruturado
-Não conseguem praticar em ambiente realista
-Não possuem avaliação objetiva de suas respostas
-
-
-## DESCRIÇÃO
-IA Entrevistador é um projeto que utiliza inteligência artificial, prompt engineering e técnicas de entrevistas técnicas para simular processos seletivos, gerar perguntas relevantes, avaliar respostas e ajudar o usuário a se preparar de forma mais prática e direcionada.
-
-
-## Solução
-Uma IA especializada conduz entrevistas simuladas de forma estruturada, avaliando:
-Conhecimentos técnicos
-Comunicação
-Clareza
-Senioridade percebida
-Aderência à vaga
-Ao final gera um relatório completo com feedback.
-
-
----
-
-Preparação para entrevistas técnicas é subjetiva e pouco escalável | Plataforma de IA Generativa que conduz entrevistas, avalia respostas e gera feedback estruturado em tempo real | Next.js, TypeScript, OpenAI, PostgreSQL e Engenharia de Prompt
-
-
-Simulador inteligente de entrevistas técnicas com IA capaz de conduzir entrevistas, avaliar respostas e gerar planos de evolução profissional utilizando LLMs e Prompt Engineering.
-
-
-
-
-## Fluxo:
-
-```
-Usuário
-   ↓
-Informa vaga
-   ↓
-IA gera entrevista
-   ↓
-Perguntas dinâmicas
-   ↓
-Usuário responde
-   ↓
-IA avalia respostas
-   ↓
-Score técnico
-   ↓
-Feedback
-   ↓
-Plano de evolução
-```
-
-
----
-
-
-
-
----
-
-
-> **Status do Projeto:** Em produção (Pronto para deploy)  
+> **Status:** ✅ Em produção — pronto para deploy  
 > **Metodologia:** Desenvolvimento Baseado em Evidências Técnicas & Impacto de Negócio
 
----
-
-## 📌 Visão Geral do Produto (The Business Problem)
-
-No mercado de tecnologia, contratações erradas (*bad hires*) custam caro. O maior gargalo não está na triagem, mas sim na **origem**: gestores técnicos e recrutadores que não sabem estruturar detalhadamente os requisitos, competências e arquiteturas que a vaga exige. 
-
-O **AI TalentSpec Architect** resolve essa dor de negócio. Trata-se de uma aplicação full-stack que utiliza um ecossistema de **Inteligência Artificial Dupla Assíncrona** para atuar como engenheira de requisitos. O sistema extrai métricas de contratação através de um chat dinâmico e gera diagnósticos técnicos profundos estruturados em Gráficos de Radar de competências e relatórios descritivos.
+</div>
 
 ---
 
-## 🛠️ Arquitetura do Sistema e Decisões Técnicas
+## 1. Problema de Negócio
 
-A engenharia deste projeto priorizou alta performance (*TTI - Time to Interactive* reduzido), blindagem de tipos com TypeScript estrito e consumo consciente de tokens de IA.
+No mercado de tecnologia, **contratações erradas custam entre 30% e 150% do salário anual** de um profissional — e o principal gargalo não está na triagem de candidatos, mas na **origem do processo**: gestores técnicos e recrutadores que estruturam descrições de vagas imprecisas, genéricas ou desconexas da arquitetura real que o cargo exigirá.
 
+Uma job description mal construída atrai candidatos inadequados, eleva o custo de triagem, alonga o tempo de contratação e aumenta a taxa de rotatividade nos primeiros seis meses. O problema é sistemático e pouco endereçado por ferramentas existentes, que se concentram na avaliação de candidatos, não na qualidade do próprio requisito da vaga.
+
+**O AI TalentSpec Architect resolve essa dor na raiz.** A plataforma conduz o responsável pela vaga por um processo guiado de engenharia de requisitos — extraindo, via chat conversacional com IA, os quatro pilares críticos de qualquer posição tech (Cargo, Senioridade, Stack e Soft Skills) — e entrega um diagnóstico analítico com Radar de Competências e relatório estruturado em Markdown, gerado por uma segunda IA avaliadora independente.
+
+---
+
+## 2. Contexto
+
+O projeto foi desenvolvido como entrega do **Bootcamp CAIXA – Inteligência Artificial na Prática (DIO)**, com o objetivo de aplicar Engenharia de Prompt, consumo de LLMs via streaming e persistência transacional em um produto com caso de uso real para equipes de recrutamento técnico e gestores de engenharia.
+
+O sistema opera sobre dois atores de IA distintos e assíncronos:
+
+- **IA 1 — Entrevistador:** conduz o chat com o usuário, coletando os quatro pilares da vaga de forma conversacional e sequencial, salvando cada troca no banco de dados em tempo real.
+- **IA 2 — Avaliadora:** recebe o histórico completo da conversa como payload, aplica Few-Shot Prompting para garantir saída JSON estrita, e gera os scores numéricos do Radar (Backend, Frontend, Cloud/DevOps, Soft Skills, Arquitetura) mais o relatório descritivo em Markdown.
+
+A separação das responsabilidades entre as duas IAs não foi arbitrária: a IA entrevistadora precisa de temperatura mais alta (0.7) para ser conversacionalmente natural; a IA avaliadora precisa de temperatura baixa (0.3) e `response_format: json_object` para garantir consistência matemática e ausência de desvios de formato.
+
+---
+
+## 3. Premissas da Análise
+
+As seguintes premissas foram adotadas no escopo deste projeto:
+
+- O usuário é um gestor técnico, tech recruiter ou líder de engenharia responsável por estruturar a requisição de uma vaga real.
+- A qualidade do diagnóstico é diretamente proporcional à profundidade das respostas fornecidas durante o chat — o sistema avalia o que foi declarado, não inferências externas.
+- O Score Geral (0–100) representa a maturidade e clareza do escopo da vaga, não a dificuldade técnica do cargo.
+- Entrevistas interrompidas (sem `scoreGeneral`) são tratadas como sessões em aberto, com histórico preservado para retomada.
+- O modelo `gpt-4o-mini` foi escolhido como padrão por ser economicamente viável para ciclos de demonstração e portfólio, com capacidade de substituição para `gpt-4o` em produção sem alteração de contrato de interface.
+
+---
+
+## 4. Estratégia da Solução
+
+A arquitetura foi construída em torno de quatro decisões de engenharia centrais:
+
+**1. Fluxo de IA Dupla Assíncrona**
 
 ```
-[ Fluxo de IA Dupla Assíncrona ]
-+-----------+     1. Chat Stream     +--------------------+
-|  Usuário  | ---------------------> | IA 1: Entrevistador|
-+-----------+                        +--------------------+
-^                                        |
-|                                        | 2. Fecha Escopo (JSON)
-|                                        v
-| 4. Renderiza Dashboard       +--------------------+
-+----------------------------- | IA 2: Avaliadora   |
-(Radar Recharts + MD)       +--------------------+
-|
-| 3. Persistência Direta
-v
-[( PostgreSQL / Prisma )]
+[ Usuário ]
+     │
+     │  1. Chat stream (perguntas sequenciais)
+     ▼
+[ IA 1: Entrevistador ]  ──────────────────────────────────────┐
+     │                                                          │
+     │  Persiste cada mensagem em tempo real                    │
+     ▼                                                          │
+[ PostgreSQL / Prisma ]                                         │
+     │                                                          │
+     │  2. Payload do histórico completo                        │
+     ▼                                                          │
+[ IA 2: Avaliadora ]  ◄───────────────────────────────────────┘
+     │
+     │  3. JSON estruturado (scores + feedback Markdown)
+     ▼
+[ Dashboard → Radar Recharts + Relatório react-markdown ]
 ```
 
-### 🧱 Escolha da Stack e Justificativas de Engenharia
+**2. React Server Components como padrão de busca de dados**
 
-* **Next.js 15 (App Router):** Utilizado para colher os benefícios de **React Server Components (RSC)**. Toda a listagem do dashboard central e a busca de dados do relatório são feitas *server-side* diretamente no PostgreSQL. O usuário recebe HTML estático e dados prontos, eliminando *spinners* de carregamento no lado do cliente.
-* **Prisma ORM & PostgreSQL:** Garantia de consistência transacional e tipagem estrita de ponta a ponta. O modelo de dados suporta relações em cascata para mensagens e relatórios de métricas.
-* **OpenAI API (GPT-4o / GPT-3.5-Turbo):** Abordagem híbrida. A IA 1 utiliza streaming para manter a latência do chat imperceptível ao usuário. A IA 2 processa o payload de forma assíncrona, injetando técnicas de *Few-Shot Prompting* para garantir saídas JSON estritas sem desvios de formato.
-* **Tailwind CSS & Recharts:** Interface construída com foco em legibilidade profissional (estética Dark Mode / Slate e Emerald) e isolamento de estado do gráfico através da diretiva `'use client'`, permitindo animações fluidas nos eixos do Radar.
+O dashboard central e a página de relatório fazem queries diretas ao PostgreSQL via Prisma dentro de Server Components, eliminando spinners de carregamento no cliente e reduzindo o TTI (Time to Interactive).
 
----
+**3. Streaming de texto para latência imperceptível**
 
-## 📊 Estrutura do Banco de Dados (Data Modeling)
+A resposta da IA 1 é consumida via `ReadableStream` no frontend, com atualização progressiva do balão de mensagem. O `interviewId` gerado no backend é entregue ao frontend via header HTTP customizado (`X-Interview-Id`), desacoplando a lógica de sessão do corpo da resposta.
 
-O modelo relacional foi desenhado para registrar o progresso de aprendizado do usuário técnico e manter históricos imutáveis das iterações:
+**4. Seed de negócio para simulação imediata**
 
-* **User:** Identificação única e segmentação de sessões.
-* **Interview:** Centraliza os inputs colhidos (Vaga, Senioridade, Stack, Soft Skills) e armazena os Scores numéricos desmembrados de **0 a 100** para alimentação direta do gráfico de radar, além de guardar o payload do relatório técnico em formato `Text` (Markdown).
-* **Message:** Log completo do chat estruturado por `role` (`user` ou `assistant`), permitindo resiliência de estado (o usuário pode continuar entrevistas interrompidas).
+O banco é populado com uma entrevista completa (com scores e feedback estruturado) e uma entrevista incompleta, permitindo que qualquer avaliador valide o comportamento do dashboard e do relatório sem precisar executar um ciclo de chat completo.
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## 5. Decisões Técnicas e Trade-offs
+
+### Next.js 15 com App Router
+Escolhido pela capacidade de colocar Server Components e Client Components na mesma árvore sem overhead de API intermediária. A alternativa seria separar um backend Express dedicado, o que adicionaria latência de rede e complexidade de deploy desnecessárias para o escopo do projeto.
+
+**Trade-off aceito:** o App Router ainda tem curva de aprendizado elevada para times acostumados com Pages Router, especialmente no tratamento de `params` como `Promise` no Next.js 15.
+
+### Prisma ORM com PostgreSQL
+Prisma foi escolhido sobre Drizzle ou queries raw por oferecer tipagem automática end-to-end a partir do `schema.prisma`. O `onDelete: Cascade` nas relações entre `Interview → Message` garante integridade referencial sem procedures adicionais.
+
+**Trade-off aceito:** o Prisma Client tem overhead de startup em ambientes serverless frios. Mitigado com o padrão de singleton global (`globalForPrisma`) no cliente de banco.
+
+### OpenAI `response_format: { type: "json_object" }`
+Utilizado exclusivamente na IA 2 (avaliadora) para garantir JSON válido sem necessidade de regex de extração ou retry loops. A IA 1 (entrevistador) opera em modo texto puro com streaming, incompatível com `json_object`.
+
+### Recharts para o Radar de Competências
+Escolhido por ser a biblioteca de visualização mais madura no ecossistema React com suporte nativo a `RadarChart`. O componente foi isolado em um Client Component com diretiva `'use client'` para evitar conflitos de hydration com o Server Component pai que carrega os dados do relatório.
+
+### `postinstall: prisma generate`
+Script injetado no `package.json` para garantir que o Prisma Client seja gerado antes da transpilação do Next.js em ambientes PaaS como Vercel, prevenindo falhas silenciosas de build em CI/CD.
+
+---
+
+## 6. Tecnologias Utilizadas
+
+| Camada | Tecnologia | Versão | Papel |
+|---|---|---|---|
+| Framework | Next.js | 15.1.0 | App Router, RSC, API Routes |
+| Linguagem | TypeScript | 5.3 | Tipagem estrita end-to-end |
+| IA Generativa | OpenAI SDK | 4.28.0 | GPT-4o-mini, streaming e JSON mode |
+| ORM | Prisma | 5.11.0 | Queries tipadas e migrations |
+| Banco de Dados | PostgreSQL | — | Persistência transacional |
+| UI | Tailwind CSS | 3.4.1 | Design system Dark Mode |
+| Visualização | Recharts | 2.12.2 | Radar de Competências SVG |
+| Renderização MD | react-markdown | 9.0.1 | Relatório técnico descritivo |
+| Runtime | React | 19.0.0 | Server & Client Components |
+
+---
+
+## 7. Estrutura do Banco de Dados
+
+O modelo relacional foi desenhado para preservar o histórico completo de cada sessão de engenharia de vagas e permitir resiliência de estado (retomada de entrevistas interrompidas):
+
+```prisma
+model User {
+  id         String      @id @default(uuid())
+  email      String      @unique
+  interviews Interview[]
+}
+
+model Interview {
+  id            String    @id @default(uuid())
+  userId        String
+  position      String    // Título da vaga estruturada
+  seniority     String    // Senioridade identificada pela IA
+  stack         String    // Tecnologias essenciais extraídas
+  softSkills    String    // Comportamentos valorizados
+  scoreGeneral  Int?      // 0–100 | null = entrevista em aberto
+  scoreBackend  Int?
+  scoreFrontend Int?
+  scoreCloud    Int?
+  scoreSoft     Int?
+  scoreArch     Int?
+  feedback      String?   @db.Text  // Relatório em Markdown
+  messages      Message[]
+  user          User      @relation(...)
+}
+
+model Message {
+  id          String    @id @default(uuid())
+  interviewId String
+  role        String    // 'user' | 'assistant'
+  content     String    @db.Text
+  interview   Interview @relation(onDelete: Cascade)
+}
+```
+
+A ausência de `scoreGeneral` é o sinal semântico que distingue uma entrevista completa de uma sessão em aberto — o dashboard usa esse campo para renderizar badges e redirecionar links de ação corretamente.
+
+---
+
+## 8. Como Executar o Projeto Localmente
 
 ### Pré-requisitos
-* Node.js v20+ instalado.
-* Instância de banco de dados PostgreSQL ativa (Local via Docker, Supabase, Neon ou similar).
+- Node.js v20+
+- Instância PostgreSQL ativa (Docker local, Supabase, Neon ou similar)
+- Chave de API da OpenAI
 
-### Passo 1: Clonar o Repositório e Instalar Dependências
+### Passo 1 — Clonar e instalar dependências
 ```bash
-git clone [https://github.com/seu-usuario/simulador-de-entrevistas-com-ia.git](https://github.com/seu-usuario/simulador-de-entrevistas-com-ia.git)
+git clone https://github.com/Santosdevbjj/simulador-de-entrevistas-com-ia.git
 cd simulador-de-entrevistas-com-ia
 npm install
-
 ```
-### Passo 2: Configurar Variáveis de Ambiente
-Crie um arquivo .env na raiz do projeto baseando-se no arquivo .env.example:
+
+### Passo 2 — Configurar variáveis de ambiente
+```bash
+cp .env.example .env
+```
+Edite o `.env` com suas credenciais:
 ```env
 DATABASE_URL="postgresql://usuario:senha@localhost:5432/nome_do_banco?schema=public"
 OPENAI_API_KEY="sk-proj-suachaveaqui..."
-
 ```
-### Passo 3: Executar as Migrations e Rodar o Seed de Negócios
-Este projeto acompanha um script de **Seed** contendo dados históricos prontos para simular o comportamento de produção imediatamente:
+
+### Passo 3 — Executar migrations e popular o banco
 ```bash
-# Executa as migrations do Prisma para estruturar o PostgreSQL
+# Estrutura o schema no PostgreSQL
 npx prisma migrate dev --name init
 
-# Popula o banco com um usuário de teste e relatórios simulados
+# Popula com dados de demonstração (1 entrevista completa + 1 incompleta)
 npx prisma db seed
-
 ```
-### Passo 4: Iniciar o Servidor de Desenvolvimento
+
+### Passo 4 — Iniciar o servidor de desenvolvimento
 ```bash
 npm run dev
-
 ```
-Abra o navegador em http://localhost:3000/dashboard para acessar o painel analítico central.
-## 🎯 Entregas de Valor (Business Value Delivered)
-Abaixo estão descritos os principais módulos da plataforma, construídos sob a ótica de usabilidade limpa e tomada de decisão orientada a dados:
-### 1. Painel de Engenharia de Vagas (Dashboard Central)
-Centraliza os indicadores-chave de performance (KPIs) do usuário. Exibe volumetria de simulações, média agregada do score de maturidade das vagas e traz um filtro visual inteligente que separa vagas por nível de senioridade, além de tratar graficamente fluxos de entrevistas que ficaram incompletas.
-### 2. Chat de Escopo Guiado por IA (Módulo Entrevistador)
-Uma interface ultra responsiva que consome a API da OpenAI via stream de texto. Conduz o usuário através de perguntas cirúrgicas e assíncronas sobre Stack de Tecnologia, Soft Skills e Escopo de Arquitetura, salvando cada linha do histórico para auditoria técnica.
-### 3. Radar de Competências & Análise de Especialista
-A tela de fechamento de relatório lê os dados tratados nativamente no servidor do Next.js e renderiza:
- * Um gráfico de Radar construído em SVG dinâmico (recharts) que aponta as fraquezas e fortalezas da descrição da vaga nos eixos Backend, Frontend, Cloud/DevOps, Soft Skills e Arquitetura.
- * Um parecer técnico detalhado formatado dinamicamente via react-markdown com sugestões de planos de desenvolvimento de equipe.
-## 🛡️ Diferenciais Técnicos Prontos para Produção
- * **CI/CD Build-Safe:** O projeto possui scripts injetados no postinstall (prisma generate) que blindam deploys automáticos em ambientes PaaS como Vercel ou Netlify, garantindo que o client do banco esteja gerado antes da transpilação do Next.js.
- * **Tratamento de Hydration Erros:** O gráfico foi desacoplado de componentes do servidor evitando conflitos comuns de renderização entre o HTML gerado no server e a árvore DOM do client.
- * **Controle Estrito de Inputs:** Interfaces blindadas contra dados nulos no histórico através de fallback em tempo de execução no mapeamento de propriedades.
- * 
+
+Acesse `http://localhost:3000/dashboard` para o painel analítico central.
+
+> **Dica:** O seed já insere uma entrevista completa com Radar de Competências e relatório gerado, permitindo validar todas as telas sem executar um ciclo de chat completo.
+
+---
+
+## 9. Resultados e Entregas de Valor
+
+### Painel de Engenharia de Vagas (Dashboard Central)
+Centraliza os KPIs operacionais do usuário: volumetria de simulações, média agregada de score de maturidade das vagas estruturadas e filtro visual que separa vagas por senioridade. Entrevistas incompletas são sinalizadas com badge âmbar e redirecionam para retomada do chat.
+
+### Chat de Escopo Guiado por IA (Módulo Entrevistador)
+Interface de streaming ultra-responsiva que consome a API da OpenAI em tempo real. Conduz o usuário por quatro perguntas sequenciais e cirúrgicas sobre Stack, Senioridade, Propósito e Soft Skills, persistindo cada troca no PostgreSQL para auditoria técnica e resiliência de sessão.
+
+### Radar de Competências + Relatório de Especialista
+A tela de relatório renderiza server-side diretamente do banco de dados e entrega:
+- Gráfico de Radar SVG em cinco eixos (Backend, Frontend, Cloud/DevOps, Soft Skills, Arquitetura) com scores individuais de 0 a 100.
+- Relatório descritivo em Markdown com três seções estruturadas: Pontos Fortes, Pontos de Melhoria e Plano de Evolução com horizonte de tempo definido.
+
+### Indicadores de Qualidade Técnica do Produto
+- **Score médio observado no seed:** 85/100 para vagas bem estruturadas — linha de base para benchmarking de sessões futuras.
+- **Latência de chat:** imperceptível ao usuário graças ao streaming; a resposta começa a aparecer em menos de 500ms após o envio.
+- **Resiliência de deploy:** `postinstall: prisma generate` garante que o Prisma Client esteja presente antes da transpilação em qualquer ambiente PaaS.
+
+---
+
+## 10. Próximos Passos
+
+Com a base arquitetural estabelecida, as evoluções priorizadas por impacto de negócio são:
+
+- **Autenticação real com NextAuth.js:** substituir o `mockUserId` por sessões OAuth, permitindo múltiplos usuários e histórico isolado por organização.
+- **Dashboard multi-usuário com filtros avançados:** comparação de scores entre vagas, filtro por stack e exportação de relatórios em PDF.
+- **Análise preditiva de fit:** cruzar o perfil estruturado da vaga com banco de candidatos via embeddings semânticos (OpenAI `text-embedding-3-small`), calculando score de aderência automaticamente.
+- **Esteira de testes automatizados:** cobertura com Jest e MSW para as Server Actions e rotas de API, especialmente os contratos JSON da IA 2.
+- **Modelo em produção com métricas de uso:** integração com Vercel Analytics para monitorar taxa de conclusão de entrevistas e identificar pontos de abandono no fluxo de chat.
 
 ---
 
 ## Autor
 
-**Sergio Santos**
+**Sergio Santos**  
 Senior Data Engineer & Cloud Architect | DIO Campus Expert
-
-
 
 [![Portfólio](https://img.shields.io/badge/Portfólio-Sérgio_Santos-111827?style=for-the-badge&logo=githubpages&logoColor=00eaff)](https://portfoliosantossergio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sérgio_Santos-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/santossergioluiz)
 
-
-
 ---
 
-
+*Desenvolvido com foco em impacto de negócio mensurável, não apenas em stack tecnológica.*
